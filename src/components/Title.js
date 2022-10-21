@@ -7,4 +7,12 @@ class Title extends React.Component {
   }
 }
 
+Title.defaultProps = {
+  headline: 'Planetas',
+};
+
+Title.propTypes = {
+  headline: PropTypes.string,
+};
+
 export default Title;
