@@ -1,3 +1,141 @@
 .App {
   text-align: center;
 }
+
+body {
+  background-image: url('./images/background.png');
+  /* border: solid white; */
+  display: flex;
+  height: 3354.53px;
+  justify-content: center;
+  position: absolute;
+  top: 4.16px;
+  width: 2000px;
+}
+
+Header {
+  display: flex;
+  justify-content: center;
+}
+
+div [ data-testid = 'solar-system' ] {
+  /* border: solid white; */
+  flex-wrap: wrap;
+  height: 600px;
+  width: 1900px;
+}
+
+ul {
+  /* border: solid white; */
+  display: flex;
+  height: 320px;
+  justify-content: center;
+  width: 1650px;
+}
+
+div [ data-testid = 'planet-card' ] {
+  align-items: flex-end;
+  /* border: solid white; */
+  display: flex;
+  flex-wrap: wrap;
+  height: 250px;
+  justify-content: center;
+  margin-left: 50px;
+  width: 100px;
+
+}
+
+div [ data-testid = 'planet-card' ]:nth-child( 1 ) img {
+  width: 41px;
+  /* border: solid white; */
+}
+
+div [ data-testid = 'planet-card' ]:nth-child( 2 ) img {
+  width: 102px;
+}
+
+div [ data-testid = 'planet-card' ]:nth-child( 3 ) img {
+  width: 106px;
+}
+
+div [ data-testid = 'planet-card' ]:nth-child( 4 ) img {
+  width: 66px;
+  margin-right: 40px;
+}
+
+div [ data-testid = 'planet-card' ]:nth-child( 5 ) img {
+  width: 272px;
+  
+}
+
+div [ data-testid = 'planet-card' ]:nth-child( 6 ) img {
+  width: 282px;
+  margin-left: 190px;
+}
+
+div [ data-testid = 'planet-card' ]:nth-child( 7 ) img {
+  width: 144px;
+  margin-left: 350px;
+}
+
+div [ data-testid = 'planet-card' ]:nth-child( 8 ) img {
+  width: 144px;
+  margin-left: 350px;
+}
+
+div [ data-testid = 'planet-card' ]:nth-child( 1 ) p {
+  /* border: solid white; */
+  color: white;
+  font-family: inherit;
+}
+
+div [ data-testid = 'planet-card' ]:nth-child( 2 ) p {
+  color: white;
+  font-family: inherit;
+}
+
+div [ data-testid = 'planet-card' ]:nth-child( 3 ) p {
+  color: white;
+  font-family: inherit;
+}
+
+div [ data-testid = 'planet-card' ]:nth-child( 4 ) p {
+  color: white;
+  font-family: inherit;
+  margin-right: 40px;
+}
+
+div [ data-testid = 'planet-card' ]:nth-child( 5 ) p {
+  color: white;
+  font-family: inherit;
+}
+
+div [ data-testid = 'planet-card' ]:nth-child( 6 ) p {
+  color: white;
+  font-family: inherit;
+  margin-left: 190px;
+}
+
+div [ data-testid = 'planet-card' ]:nth-child( 7 ) p {
+  color: white;
+  font-family: inherit;
+  margin-left: 350px;
+}
+
+div [ data-testid = 'planet-card' ]:nth-child( 8 ) p {
+  color: white;
+  font-family: inherit;
+  margin-left: 350px;
+}
+
+h2 {
+  /* border-style: solid; */
+  color: white;
+  font-family: inherit;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+  text-align: center;
+  text-transform: uppercase;
+}
