@@ -12,4 +12,4 @@ Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua cr
 - quais arquivos/pastas foram desenvolvidos pela Trybe.
 -->
 
-https://github.com/Pablo73/project-solar-system.git
+https://pablo73.github.io/project-solar-system/
