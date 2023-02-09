@@ -1,9 +1,11 @@
+/* stylelint-disable order/properties-alphabetical-order */
 .App {
   text-align: center;
 }
 
 body {
   background-image: url('./images/background.png');
+
   /* border: solid white; */
   display: flex;
   height: 3354.53px;
@@ -13,12 +15,13 @@ body {
   width: 2000px;
 }
 
-Header {
+header {
   display: flex;
   justify-content: center;
 }
 
 div [ data-testid = 'solar-system' ] {
+
   /* border: solid white; */
   flex-wrap: wrap;
   height: 600px;
@@ -26,6 +29,7 @@ div [ data-testid = 'solar-system' ] {
 }
 
 ul {
+
   /* border: solid white; */
   display: flex;
   height: 320px;
@@ -35,6 +39,7 @@ ul {
 
 div [ data-testid = 'planet-card' ] {
   align-items: flex-end;
+
   /* border: solid white; */
   display: flex;
   flex-wrap: wrap;
@@ -47,6 +52,7 @@ div [ data-testid = 'planet-card' ] {
 
 div [ data-testid = 'planet-card' ]:nth-child( 1 ) img {
   width: 41px;
+
   /* border: solid white; */
 }
 
@@ -65,7 +71,6 @@ div [ data-testid = 'planet-card' ]:nth-child( 4 ) img {
 
 div [ data-testid = 'planet-card' ]:nth-child( 5 ) img {
   width: 272px;
-  
 }
 
 div [ data-testid = 'planet-card' ]:nth-child( 6 ) img {
@@ -84,6 +89,7 @@ div [ data-testid = 'planet-card' ]:nth-child( 8 ) img {
 }
 
 div [ data-testid = 'planet-card' ]:nth-child( 1 ) p {
+
   /* border: solid white; */
   color: white;
   font-family: inherit;
@@ -129,6 +135,7 @@ div [ data-testid = 'planet-card' ]:nth-child( 8 ) p {
 }
 
 h2 {
+
   /* border-style: solid; */
   color: white;
   font-family: inherit;
@@ -138,4 +145,13 @@ h2 {
   line-height: 150%;
   text-align: center;
   text-transform: uppercase;
+}
+
+
+
+div [ data-testid = 'mission-card' ] {
+
+  /* border: solid white; */
+  color: white;
+  display: flex;
 }
